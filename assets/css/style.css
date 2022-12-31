@@ -14,13 +14,13 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/* removed .header before the class name below and left it as h1 */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* removed header h1 from class title and left it as .seo */
+.seo {
     color: #d9dcd6;
 }
 
