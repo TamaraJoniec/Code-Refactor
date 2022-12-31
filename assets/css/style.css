@@ -32,11 +32,10 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+/* Grouped together the ul and li attributes. Removed header, div and ul labels. */
 
-.header div ul li {
+li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
@@ -95,7 +94,6 @@ p {
     color: #ffffff;
 }
 
-/*  
 
 /* Removed .benefit classes and left it as  h3, and removed the other two blocks of repetitions.  */
 h3 {
