@@ -33,14 +33,12 @@ body {
 }
 
 /* Grouped together the ul and li attributes. Removed header, div and ul labels. */
+/* Put the anchor elements inside the li group. */
 
-li {
+li, a {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
     color: #ffffff;
     text-decoration: none;
 }
