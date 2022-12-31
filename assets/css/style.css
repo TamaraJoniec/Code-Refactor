@@ -14,11 +14,13 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* removed .header before the class name below and left it as h1 */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* removed header h1 from class title and left it as .seo */
 .seo {
     color: #d9dcd6;
@@ -35,7 +37,8 @@ h1 {
 /* Grouped together the ul and li attributes. Removed header, div and ul labels. */
 /* Put the anchor elements inside the li group. */
 
-li, a {
+li,
+a {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
@@ -134,14 +137,11 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* grouped footer properties under one class */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
