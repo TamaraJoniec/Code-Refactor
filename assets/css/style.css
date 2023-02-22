@@ -114,9 +114,9 @@ h3 {
 
 /* regrouped all the features of the SEO, reputation and social media sections into one, grouping all the classes together. */
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -125,11 +125,11 @@ h3 {
     color: #ffffff;
 }
 
-/* Regrouped all the features of the SEO, reputation and social media images into one, grouping all the classes together. */
+/* Regrouped all the features of the SEO, reputation and social media images into one, grouping all the classes together# */
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+#search-engine-optimization img,
+#online-reputation-management img,
+#social-media-marketing img {
     max-height: 200px;
 }
 
