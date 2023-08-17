@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* changed below from header div to nav */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +32,11 @@ nav {
     font-size: 20px;
 }
 
+/* changed below from header div ul to nav ul */
 nav ul {
     list-style-type: none;
 }
-
+/* changed below from header div ul li to nav ul li*/
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -75,6 +76,7 @@ p {
     margin-left: 20px;
 }
 
+/* Right hand side column section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,6 +103,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Main section */
 /* Grouped .search-engine-optimization, .social-media-marketing */
 .search-engine-optimization, 
 .social-media-marketing {
@@ -130,6 +134,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
