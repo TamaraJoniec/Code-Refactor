@@ -212,5 +212,73 @@ p {
   
 /* mobile styles */
 @media (max-width: 600px) {
+ /* Adjusting header styles */
+ .header {
+    padding: 10px;
+    text-align: center;
+}
 
+.header h1 {
+    font-size: 32px;
+}
+
+/* Adjusting navigation styles */
+nav {
+    padding-top: 10px;
+    margin-right: 0;
+    float: none;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+}
+
+/* Adjusting content styles */
+p, .footer h2 {
+    font-size: 14px;
+}
+
+.hero {
+    height: 60%;
+    width: 100%;
+}
+
+.float-left, .float-right {
+    float: none;
+    margin: 5px 0;
+}
+
+.content {
+    width: 95%;
+    margin: 10px auto;
+}
+
+/* Adjusting benefits section */
+.benefits {
+    margin: 10px 5px;
+    padding: 10px;
+    width: 90%;
+    float: none;
+}
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    max-width: 100px;
+}
+
+/* Main section adjustments */
+.search-engine-optimization, .social-media-marketing, .online-reputation-management {
+    padding: 30px;
+    height: auto;
+}
+
+/* Footer adjustments */
+.footer {
+    padding: 20px;
+}
 }
