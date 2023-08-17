@@ -31,7 +31,7 @@ Through this refactoring process, the website's codebase is now more efficient, 
 
 * Mobile-first design
 
-![Screenshot of website](assets/images/01-html-css-git-challenge-demo.png)
+![Screenshot of website](assets/images/01-html-css-git-challenge-demo.jpeg)
 
 ## Contributing
 
