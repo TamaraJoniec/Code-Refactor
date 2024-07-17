@@ -31,7 +31,7 @@ Through this refactoring process, the website's codebase is now more efficient, 
 
 * Mobile-first design
 
-![Screenshot of website](./assets/images/screenshotrecording.gif)
+![Screenshot of website](/assets/images/screenrecording.gif)
 
 ## Contributing
 
