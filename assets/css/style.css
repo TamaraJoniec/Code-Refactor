@@ -197,7 +197,8 @@ p.description {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .block__container {
-    margin-left: -5px;
+    grid-template-columns: 1fr;
+    margin: 0;
   }
 
   .benefit h3 {
@@ -206,6 +207,7 @@ p.description {
 
   .services {
     display: grid;
+    text-align: center;
   }
 
   img.social-media-marketing {
@@ -213,7 +215,7 @@ p.description {
   }
 
   p.description {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .header {
@@ -277,5 +279,6 @@ p.description {
   /* Footer adjustments */
   .footer {
     padding: 1.25rem;
+    margin-top: auto;
   }
 }
