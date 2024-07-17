@@ -2,16 +2,14 @@
 <html lang="en-gb">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" ></picture>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>website</title>
 </head>
 
 <body>
-     <!-- renamed div to semantic element header -->
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- renamed div to semantic element nav -->
         <nav>
             <ul>
                 <li>
@@ -26,71 +24,87 @@
             </ul>
         </nav>
     </header>
-    <div class="hero"></div>
-    <!-- renamed div to semantic element main -->
-    <main class="content">
-         <!-- renamed divs to semantic element section -->
-        <section class="search-engine-optimization">
-                        <!-- Added alt text -->
-            <img src="./assets/images/search-engine-optimization.jpg" alt="birds-eye view of a desk and a notepad with a mind-map of the key areas of SEO building" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they
-                travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
-                your visibility and find the right customers for your business.
-            </p>
-        </section>
-        <section id="online-reputation-management" class="online-reputation-management">
-                        <!-- Added alt text -->
-            <img src="./assets/images/online-reputation-management.jpg" alt="a person on a phone and a laptop with a bar chart to describe increasing brand reputation" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an
-                internet connection to say whatever they want about your business. Online Reputation Management gives
-                you the control over what potential customers see when they search for your business.
-            </p>
-        </section>
-        <section id="social-media-marketing" class="social-media-marketing">
-                        <!-- Added alt text -->
-            <img src="./assets/images/social-media-marketing.jpg" alt="birds-eye view of a desk where people are working on their laptops, with lots of logos scattered on top" class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you
-                determine which platforms are suited to your brand, using analytics to find the right markets and
-                increase your lead generation.
-            </p>
-        </section>
-    </main>
-    <div class="benefits">
-        <section class="benefit-lead">
-            <h3>Lead Generation</h3>
-                       <!-- Added alt text -->
-             <img src="./assets/images/lead-generation.png" alt="black icon of cogs and a funnel, where money comes out from"/>
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly
-                to your website.
-            </p>
-        </section>
-        <section class="benefit-brand">
-            <h3>Brand Awareness</h3>
-                        <!-- Added alt text -->
-            <img src="./assets/images/brand-awareness.png" alt="black icon of a person thinking, and the head is replaced by a lightbulb"/>
-            <p>
+    <picture class="hero" loading="eager">
+        <source srcset="./assets/images/digital-marketing-meeting.jpg">
+        <img src="./assets/images/digital-marketing-meeting.webp" class="hero__image" alt="Five people around a table in a meeting room discussing work.">
+    </picture>
+    
+    <main class="block__container">
+        <div class="block__main">
+            <section class="search-engine-optimization">
+                <picture loading="lazy" class="float-left">
+                    <source srcset="./assets/images/search-engine-optimization.jpg" media="(min-width: 1024px)">
+                    <img src="./assets/images/search-engine-optimization.jpg" alt="birds-eye view of a desk and a notepad with a mind-map of the key areas of SEO building">
+                </picture>
+                <h2>Search Engine Optimization</h2>
+                <p class="description">
+                    The dominance of mobile internet use means that users are searching for the right business as they
+                    travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
+                    your visibility and find the right customers for your business.
+                </p>
+            </section>
+            <section id="online-reputation-management" class="online-reputation-management">
+                <picture loading="lazy" class="float-right">
+                    <source srcset="./assets/images/online-reputation-management.jpg" media="(min-width: 1024px)">
+                    <img src="./assets/images/online-reputation-management.jpg" alt="a person on a phone and a laptop with a bar chart to describe increasing brand reputation">
+                </picture>
+                <h2>Online Reputation Management</h2>
+                <p class="description">
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an
+                    internet connection to say whatever they want about your business. Online Reputation Management gives
+                    you the control over what potential customers see when they search for your business.
+                </p>
+            </section>
+            <section id="social-media-marketing" class="social-media-marketing">
+                <picture loading="lazy" class="float-left" >
+                    <source srcset="./assets/images/social-media-marketing.jpg" media="(min-width: 1024px)">
+                    <img src="./assets/images/social-media-marketing.jpg" alt="birds-eye view of a desk where people are working on their laptops, with lots of logos scattered on top">
+                </picture>
+                <h2>Social Media Marketing</h2>
+                <p class="description">
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you
+                    determine which platforms are suited to your brand, using analytics to find the right markets and
+                    increase your lead generation.
+                </p>
+            </section>
+        </div>
+            <div class="block__benefits">
+                <section class="benefit-lead">
+                    <h3>Lead Generation</h3>
+                <picture loading="lazy">
+                    <source srcset="./assets/images/lead-generation.png" media="(min-width: 1024px)">
+                    <img src="./assets/images/lead-generation.png" alt="black icon of cogs and a funnel, where money comes out from">
+                </picture>
+                <p class="description">
+                    Inbound strategies for lead generation require less work for your business, bringing customers directly
+                    to your website.
+                </p>
+            </section>
+            <section class="benefit-brand">
+                <h3>Brand Awareness</h3>
+                <picture loading="lazy"
+                alt="black icon of a person thinking, and the head is replaced by a lightbulb" >
+                <source srcset="./assets/images/brand-awareness.png" media="(min-width: 1024px)">
+                <img src="./assets/images/brand-awareness.png" alt="black icon of a person thinking, and the head is replaced by a lightbulb">
+            </picture>
+            <p class="description"> 
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
         </section>
         <section class="benefit-cost">
             <h3>Cost Management</h3>
-                        <!-- Added alt text -->
-            <img src="./assets/images/cost-management.png" alt="black icon with cogs and a coin"></img>
-            <p>
+            <picture loading="lazy">
+                <source srcset="./assets/images/cost-management.png" media="(min-width: 1024px)">
+                <img src="./assets/images/cost-management.png" alt="black icon with cogs and a coin">
+            </picture>
+            <p class="description">
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
                 need to advertise your page.
             </p>
-        </section>
-    </div>
-    <!-- renamed div to semantic element footer -->
+         </section>  
+        </div>
+    </main>
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
